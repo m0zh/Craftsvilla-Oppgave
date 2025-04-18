@@ -157,6 +157,7 @@ footer {
     align-items: center;
     justify-content: space-around;
     background-color: #CCD5AE;
+    border-radius: 5pxs;
 }
 
 .image-box img {
@@ -184,7 +185,7 @@ footer {
 .booking-box {
     width: 30%;
     height: 100%;
-    border: solid black 2px;
+    border-radius: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -208,6 +209,12 @@ footer {
     color: #ca8036;
 }
 
+.info-box h2{
+    text-align: center;
+    margin-bottom: 5px;
+    border-bottom: solid 5px #E9EDC9;
+  }
+
 .form-box {
     max-width: 400px;
     margin: 0 auto;
@@ -229,4 +236,71 @@ footer {
     background-color: #E9EDC9;
     border-radius: 5px;
     border: none;
+  }
+
+  #price {
+    border-bottom: solid 5px #E9EDC9;
+  }
+
+
+  /* Feedback page */
+
+  .feedback-input-container {
+    width: 100%;
+    height: 273px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #CCD5AE;
+  }
+
+  #text-area {
+    width: 500px;
+    height: 250px;
+    padding: 25px;
+    background-color: #FEFAE0;
+  }
+
+  .posted-feedback-container {
+    height: 850px;
+    width: 100%;
+    background-color: #CCD5AE;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .feedback-containers {
+    width: 320px;
+    height: 150px;
+    background-color: #E9EDC9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    border: solid black 1px;
+  }
+
+  .feedback-image {
+    width: 50%;
+    padding: 5px;
+    border-radius: 5px;
+  }
+
+  .feedback-text {
+    width: 50%;
+    font-size: 12px;
+    letter-spacing: .2px;
+    color: #ca8036;
+    padding: 5px;
+  }
+
+  .feedback-text h3 {
+    margin-bottom: 5px;
+  }
+
+  .feedback-text p {
+    margin-bottom: 5px;
   }
