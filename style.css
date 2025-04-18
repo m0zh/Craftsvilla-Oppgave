@@ -106,15 +106,21 @@ footer {
     padding: .1em 1em;
     border-top: solid 3px #CCD5AE;
     letter-spacing: 2px;
+    color: #ca8036;
+}
+
+.footer-info li {
+    margin: 10px 0;
 }
 
 .footer-navbar li {
     text-align: right;
     margin: 5px;
+    color: #ca8036;
 }
 
 .footer-navbar li:focus, .footer-navbar li:hover {
-    color: #ca8036;
+    color: red;
 }
 
 /* Index page */
@@ -267,9 +273,10 @@ footer {
     background-color: #CCD5AE;
     margin-top: 10px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    padding: 10px;
   }
   
   .posted-feedback-containers {
@@ -282,8 +289,8 @@ footer {
     border-radius: 5px;
     border: solid black 1px;
     overflow: hidden;
-    padding: 25px;
-    margin: 25px 0;
+    padding: 10px;
+    margin: 15px 0;
   }
   
   .feedback-image {
@@ -291,7 +298,6 @@ footer {
     height: 100%; 
     padding: 5px;
     border-radius: 5px;
-    box-sizing: border-box;
   }
   
   .feedback-image img {
@@ -303,11 +309,11 @@ footer {
 
   .feedback-text {
     width: 50%;
-    height: 95%;
+    height: 100%;
     font-size: 12px;
     letter-spacing: .2px;
     color: #ca8036;
-    padding: 10px;
+    padding: 5px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
