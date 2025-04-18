@@ -262,12 +262,12 @@ footer {
   }
 
   .feedback-container {
-    height: 850px;
+    height: auto;
     width: 100%;
     background-color: #CCD5AE;
     margin-top: 10px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
   }
@@ -282,6 +282,8 @@ footer {
     border-radius: 5px;
     border: solid black 1px;
     overflow: hidden;
+    padding: 25px;
+    margin: 25px 0;
   }
   
   .feedback-image {
