@@ -36,12 +36,12 @@ button {
 }
 
 button:hover, button:focus {
-    scale: 1.1;
+    transform: scale(1.1);
     box-shadow: #ca8036 1px 1px;
 }
 
 button:active {
-    scale: 0.9;
+    transform: scale(.95);
 }
 
 
@@ -62,11 +62,18 @@ header h1 {
     color: #ca8036;
 }
 
+.nav-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
 .navbar ul {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 100px;
+    gap: 50px;
     font-size: 24px;
 }
 
@@ -76,7 +83,7 @@ ul, li {
 }
 
 
-.navbar ul a {
+.navbar a {
     background-color: #CCD5AE;
     padding: .2em 1em;
     border-radius: 5px;
@@ -84,13 +91,24 @@ ul, li {
     color: #ca8036;
 }
 
-.navbar ul a:hover, .navbar ul a:focus {
-    box-shadow: 1px 1px;
-    scale: 1.05;
+.navbar a {
+    background-color: #CCD5AE;
+    padding: 0.2em 1em;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #ca8036;
+    display: flex;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
 }
 
-.navbar ul a:active {
-    scale: 0.95;
+.navbar li a:hover, .navbar li a:focus {
+    box-shadow: 1px 1px;
+    transform: scale(1.05);
+}
+
+.navbar-top li a:active {
+    transform: scale(.95);
 }
 
 
@@ -113,13 +131,12 @@ footer {
     margin: 10px 0;
 }
 
-.footer-navbar li {
-    text-align: right;
-    margin: 5px;
+.footer-navbar a {
+    text-align: left;
     color: #ca8036;
 }
 
-.footer-navbar li:focus, .footer-navbar li:hover {
+.footer-navbar li a:focus, .footer-navbar li a:hover {
     color: red;
 }
 
