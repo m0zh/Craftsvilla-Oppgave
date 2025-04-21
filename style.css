@@ -74,21 +74,12 @@ header h1 {
     align-items: center;
     justify-content: center;
     gap: 50px;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 ul, li {
     text-decoration: none;
     list-style-type: none;
-}
-
-
-.navbar a {
-    background-color: #CCD5AE;
-    padding: .2em 1em;
-    border-radius: 5px;
-    text-decoration: none;
-    color: #ca8036;
 }
 
 .navbar a {
@@ -99,7 +90,10 @@ ul, li {
     color: #ca8036;
     display: flex;
     align-items: center;
+    justify-content: center;
     transition: all 0.2s ease-in-out;
+    width: 150px;
+    height: 40px;
 }
 
 .navbar li a:hover, .navbar li a:focus {
@@ -250,7 +244,7 @@ footer {
     color: #ca8036;
   }
 
-  .form-box input {
+  .form-box input, select {
     display: block;
     width: 100%;
     padding: 8px;
@@ -264,6 +258,7 @@ footer {
   #price {
     border-bottom: solid 5px #E9EDC9;
   }
+
 
 
   /* Feedback page */
